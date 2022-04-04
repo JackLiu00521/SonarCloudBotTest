@@ -15,4 +15,9 @@ public class App
     {
         return a + b;
     }
+    
+    public int subNums( int a, int b)
+    {
+        return a - b;
+    }
 }
