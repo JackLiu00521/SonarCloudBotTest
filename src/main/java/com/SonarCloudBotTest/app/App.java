@@ -11,7 +11,7 @@ public class App
         System.out.println( "Hello World!" );
     }
     
-    public static int addNums( int a, int b )
+    public int addNums( int a, int b )
     {
         return a + b;
     }
