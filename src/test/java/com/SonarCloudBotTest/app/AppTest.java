@@ -21,13 +21,15 @@ public class AppTest
     
     @Test
     public void testAddNums() {
+        App myApp = new App();
+        
         // 1. Arrange
         int number1 = 5;
         int number2 = 10;
         int excepted = 15;
 
         // 2. Act
-        int actual = addNums(number1, number2);
+        int actual = myApp.addNums(number1, number2);
 
         // 3. Assert
         assertThat(actual).isEqualTo(excepted);
