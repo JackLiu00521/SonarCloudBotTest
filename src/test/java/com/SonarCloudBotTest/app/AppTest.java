@@ -1,8 +1,7 @@
 package com.SonarCloudBotTest.app;
 
 import static org.junit.Assert.assertTrue;
-
-
+import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.Test;
 
 /**
@@ -32,6 +31,6 @@ public class AppTest
         int actual = myApp.addNums(number1, number2);
 
         // 3. Assert
-        assertThat(actual).isEqualTo(excepted);
+        assertEquals(excepted, actual);
     }
 }
