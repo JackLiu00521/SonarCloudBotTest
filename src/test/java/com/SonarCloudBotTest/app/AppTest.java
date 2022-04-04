@@ -1,6 +1,6 @@
 package com.SonarCloudBotTest.app;
 
-import static org.junit.Assert;
+import static org.junit.Assert.*;
 import org.junit.Test;
 
 /**
