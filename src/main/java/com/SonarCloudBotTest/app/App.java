@@ -20,4 +20,9 @@ public class App
     {
         return a - b;
     }
+    
+    public int mulNums( int a, int b)
+    {
+        return a * b;
+    }
 }
